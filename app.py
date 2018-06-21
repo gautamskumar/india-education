@@ -12,3 +12,4 @@ app     = Flask(__name__)
 mongo   = PyMongo(app)
 
 @app.route('/')
+	return render_template('index.html')
