@@ -11,7 +11,7 @@ from bson.son import SON
 app     = Flask(__name__)
 mongo   = PyMongo(app)
 
-@app.route('/')
+@app.route('/home')
 def homePage():
 	return render_template('index.html')
 
