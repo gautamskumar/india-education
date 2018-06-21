@@ -13,3 +13,6 @@ mongo   = PyMongo(app)
 
 @app.route('/')
 	return render_template('index.html')
+
+@app.route('/hello')
+	return render_template('index.html')
